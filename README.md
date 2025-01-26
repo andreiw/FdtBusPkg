@@ -78,11 +78,12 @@ FdtBusPkg is licensed under the BSD-2-Clause-Patent license (just like Tiano).
 ## Security Policy
 
 I am committed to addressing security vulnerabilities with a reasonable response time for an open-source/hobby project and providing clear guidance on the solution, impact, severity and mitigation.
-If you need more than that, we can discuss consulting services.
 
 ### Reporting a Vulnerability
 
-Please report any security vulnerabilities in this project utilizing the guidelines [here](https://www.intel.com/content/www/us/en/security-center/vulnerability-handling-guidelines.html).
+If you have discovered potential security vulnerability, please validate with the latest commit in the repo. If the issue reproduces - raise an issue. It is important to include the following details:
+- Detailed description of the vulnerability, with a repro if possible.
+- Information on known exploits.
 
 ## Contribute
 
