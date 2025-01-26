@@ -6,9 +6,9 @@ configuration using a Devicetree. Such a Devicetree is typically
 either passed to UEFI by higher-privileged firmware.
 
 > [!NOTE]
-> This is a staging branch created as part of the ongoing
-> [RISE](https://riseproject.dev/) collaboration. The net goal is to
-> upstream to TianoCore edk2 and the UEFI Specification.
+> Relation to https://github.com/intel/FdtBusPkg - this is a direct continuation
+> of the work I've done at Intel before I left. Most likely, the Intel repo is dead,
+> as I was the owner and the only remaining contributor to the project.
 
 Advantages:
 - Allows UEFI developers to fully embrace modularity and code reuse.
@@ -69,7 +69,6 @@ To build RISC-V OVMF firmware enabled with FdtBusPkg components:
         $ export GCC_RISCV64_PREFIX=... (if you are on a non-RISCV64 system)
         $ build -a RISCV64  -p OvmfPkg/RiscVVirt/RiscVVirtQemu.dsc -t GCC -b DEBUG
 
-
 See [the README for Developers](Docs/Developers.md) for more directions.
 
 ## License
@@ -78,15 +77,14 @@ FdtBusPkg is licensed under the BSD-2-Clause-Patent license (just like Tiano).
 
 ## Security Policy
 
-Intel is committed to rapidly addressing security vulnerabilities affecting our customers and providing clear guidance on the solution, impact, severity and mitigation.
+I am committed to addressing security vulnerabilities with a reasonable response time for an open-source/hobby project and providing clear guidance on the solution, impact, severity and mitigation.
+If you need more than that, we can discuss consulting services.
 
 ### Reporting a Vulnerability
 
 Please report any security vulnerabilities in this project utilizing the guidelines [here](https://www.intel.com/content/www/us/en/security-center/vulnerability-handling-guidelines.html).
 
 ## Contribute
-
-This is a [RISE Project](https://riseproject.dev) under the Firmware WG. See the [project wiki page](https://wiki.riseproject.dev/display/HOME/EDK2_00_03+-+FdtBusDxe+support).
 
 Contributions are welcome. Please raise issues and pull requests.
 
