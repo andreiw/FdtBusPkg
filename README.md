@@ -89,4 +89,4 @@ If you have discovered potential security vulnerability, please validate with th
 
 Contributions are welcome. Please raise issues and pull requests.
 
-Please see the [policy on contributions](CONTRIBUTING.md) and our [Code of Conduct](CODE_OF_CONDUCT.md).
+Please see the [policy on contributions](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
